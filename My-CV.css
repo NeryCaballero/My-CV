@@ -1,0 +1,238 @@
+/* C O L O R  P A L L E T E 
+    Dark grey #242424 rgb(36,36,36)
+    Green: #649051 rgb(100,144,81)    
+    Blue: #3FCFC2 rgb(63,207,194)
+    Yellow: rgb(227, 179, 57)
+*/
+
+/* F O N T S 
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* N A V  B A R  */
+    
+    .navbar {
+        background-color: rgba(36,36,36,0.95);
+        display: flex;
+        height: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .navbar a {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        font-size: 1.4em;
+        font-family: 'Inconsolata', monospace;
+        font-weight: 500;
+        letter-spacing: 0.2em;
+    }
+
+    .navbar .btn {
+        flex: 1;
+        width: 18%;
+        padding: 10px;
+        color: rgba(227, 179, 57, 0.3);
+        /*border: 2px solid rgba(227, 179, 57, 0.3);*/
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        transition: background-color 0.2s ease-out, color 0.2s ease-out;
+
+    }
+
+/*  H E R O   H E A D E R  */
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        height: 70%;
+        margin-bottom: 80px;
+        background-color: #242424;
+        /*background-image: url();
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;*/
+    }
+
+    .hero-title {
+        text-align: center;
+        width: 100%;
+        color: rgba(227, 179, 57,0.9); 
+        height: auto;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        flex: 1;
+    }
+    
+        .hero-title h1 {
+            font-size: 6em;
+            font-family: 'Montserrat Subrayada', sans-serif;
+            letter-spacing: 0.15em;
+        }
+    
+        .hero-title h2 {
+            margin-top: 60px;
+            font-family: 'Inconsolata', monospace;
+            font-size: 1.7em;
+            text-align: center;
+            font-weight: 300;
+            letter-spacing: 0.5em;
+        }
+
+/*  A B O U T   M E  */
+
+    .about-me {
+        display:flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo {
+        flex-basis: 40%;
+    }
+
+    .about {
+        flex-basis: 60%;
+    }
+
+    .photo img {
+        height: 350px;
+        border: 10px solid rgba(227, 179, 57,0.5);
+        border-radius: 50%;
+        margin-bottom: 30px;
+    }
+
+    .about p {
+        color:rgba(36,36,36,0.8);
+        font-family: 'Inconsolata', monospace;
+        font-size: 1.5em;
+        letter-spacing: 0.2em;
+        line-height: 2.5;
+        padding: 5%;
+        text-align: justify;
+    }
+
+/*  L A N G U A G E S  */
+
+    .languages {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px;
+        justify-content: space-evenly;
+    }
+
+    .html, 
+    .css,
+    .js,
+    .php {
+        flex-basis: 5%;
+        font-family: 'Inconsolata', monospace;
+        font-size: 6em;
+    }
+
+    .html {
+        color: rgba(227, 179, 57, 1);
+    }
+
+    .css {
+        color: rgba(227, 179, 57,0.7);
+    }
+
+    .js,
+    .php {
+        color: rgba(36,36,36,0.1);
+    }
+
+    /*  T I T L E S  */
+
+    .content h1 {
+        color: rgba(36,36,36,0.9);
+        font-family: 'Montserrat Subrayada', sans-serif;
+        font-size: 8em;
+        margin-top:60px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    /*  C O N T A C T  F O R M  */
+
+    .contact-container {
+        display:flex;
+        margin-top: -40px; 
+    }
+
+    form {
+        margin: auto;
+    }
+
+    .contact {
+        background-color: rgba(36,36,36,0.9);
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        padding: 10%;
+        width: 470px;
+    }
+
+    .contact label {
+        display: none;
+    }
+
+    .contact-field {
+        flex: 1;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 40px;
+        border: none;
+        font-family: 'Inconsolata', monospace;
+        font-size: 1.2em;
+        padding: 5%
+    }
+
+    textarea {
+        height: 80px;
+    }
+
+    input[type=submit] {
+        background-color: rgba(227, 179, 57, 1);
+        font-family: 'Inconsolata', monospace;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: rgba(36,36,36,0.6);
+        font-family: 'Inconsolata', monospace;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
