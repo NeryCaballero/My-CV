@@ -12,12 +12,10 @@
 <body>
     <header>
         
-        <div class="navbar">
-
-            <a class="btn" href="#about-me">About Me</a>
-            <a class="btn" href="#languages">Languages</a>
-            <a class="btn" href="#contactme">Contact Me</a>
-
+        <div class="nav-bar row">
+            <a class="btn col col-xs-4" href="#about-me">&#60About/&#62</a>
+            <a class="btn col col-xs-4" href="#languages">&#60Languages/&#62</a>
+            <a class="btn col col-xs-4" href="#contactme">&#60Contact/&#62</a>
         </div>
 
         <div class="hero">
@@ -38,13 +36,13 @@
 
         <h1 id="about-me">About Me</h1>
 
-        <div class="about-me">
+        <div class="about-me row">
 
-            <div class="photo">
+            <div class="photo col col-sm-6">
                 <img src="images/Nery460px.jpeg" alt="Nery Caballero">
             </div>
 
-            <div class="about">
+            <div class="about col col-sm-6">
                 <p>Hello, my name is Nery Caballero. 
                 <br/>I am a 31 years panamanian studying Web Development in Brussels, Belgium.</p>
             </div>
@@ -52,33 +50,36 @@
 
         </div>
 
-        <h1 id="languages">Languages</h1>
+        <h1 id="languages">My Languages</h1>
+        <h2>as of now ;)</h2>
 
-        <div class="languages">
+        <div class="languages row">
 
-            <div class="html">
+            <div class="html col col-xs-3">
                 <p><i class="fab fa-html5"></i></p>
             </div>
 
-            <div class="css">
-                <i class="fab fa-css3-alt"></i>
+            <div class="css col col-xs-3">
+                <p><i class="fab fa-css3-alt"></i></p>
             </div>
 
-            <div class="js">
-                <i class="fab fa-js"></i>
+            <div class="js col col-xs-3">
+                <p><i class="fab fa-js"></i></p>
             </div>
 
-            <div class="php">
-                <i class="fab fa-php"></i>
+            <div class="php col col-xs-3">
+                <p><i class="fab fa-php"></i></p>
             </div>
 
         </div>
 
         <h1 id="contactme">Contact Me</h1>
 
-        <div class="contact-container">
+        <div class="contact-container row">
 
-            <form>
+            <div class="col col-xs-1"></div>
+
+            <form class="col col-xs-10">
                 <div class="contact">
                     <label for="name">Name</label>
                     <input class="contact-field" type="text" id="name" name="name" placeholder="What's your name?">
@@ -91,6 +92,8 @@
 
                     <input class="contact-field" type="submit" value="Send">
                 </div>
+
+                <div class="col col-xs-1"></div>
 
             </form>
 
