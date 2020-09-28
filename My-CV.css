@@ -170,6 +170,31 @@ a {
         color: rgba(36,36,36,0.1);
     }
 
+
+/* L A N G U A G E S  P R O G R E S S  */
+
+    .html-progress,
+    .css-progress,
+    .js-progress,
+    .php-progress {
+        display: flex;
+        justify-content: center;
+    }
+
+    progress {
+        width: 80px;
+        height: 30px;
+        /*How to change color?*/
+    }
+
+    .languages-progress {
+        visibility: hidden;
+    }
+
+    @media screen and (min-width: 768px) {
+        .languages-progress { visibility: visible}
+    }
+
 /* C O N T A C T  F O R M  */
 
     .contact-container {
