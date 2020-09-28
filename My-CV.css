@@ -22,6 +22,12 @@ body {
     padding: 0;
 }
 
+@media screen and (min-width: 768px) {
+
+    body {font-size: 20px;}
+    
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
 }
@@ -185,7 +191,36 @@ a {
         width: 80px;
         height: 30px;
         /*How to change color?*/
+
     }
+
+    /* TRIED THIS AND IT DIDNT WORK :(
+        progress::-webkit-progress-value {
+            background: yellow;
+          }
+          
+          progress::-moz-progress-bar {
+            background:  yellow;
+          }
+          
+          progress::-webkit-progress-value {
+            background:  yellow;
+          }
+          
+          progress::-webkit-progress-bar {
+            background:  yellow;
+          }  */
+
+        /* ALSO TRIED THIS, AND IT DID NOT WORK EITHER
+        
+        progress {
+            -webkit-appearance: none;
+        }
+
+        progress::-webkit-progress-bar-value {
+            -webkit-appearance: none;
+            background: orangered;
+        }*/
 
     .languages-progress {
         visibility: hidden;
